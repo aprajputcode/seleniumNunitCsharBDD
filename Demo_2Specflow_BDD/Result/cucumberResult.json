@@ -1,0 +1,326 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Calculator",
+    "tags": [],
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Add two numbers",
+        "line": 9,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@mytag"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "the first number is 50",
+            "line": 10,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "the second number is 70",
+            "line": 11,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "When",
+            "name": "the two numbers are added",
+            "line": 12,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "the result should be 120",
+            "line": 13,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Check The Employee Detail",
+        "line": 15,
+        "type": "scenario",
+        "tags": [],
+        "steps": [
+          {
+            "keyword": "When",
+            "name": "I fill the all mandatory details",
+            "line": 18,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Check The Employee Detail in differnt iteraction",
+        "line": 32,
+        "type": "scenario_outline",
+        "tags": [],
+        "steps": [
+          {
+            "keyword": "When",
+            "name": "I fill the all mandatory details <name> , <age> ,<mobile> and <email>",
+            "line": 35,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "context Injectction calculater class to injectionemployeedefinaction",
+        "line": 50,
+        "type": "scenario",
+        "tags": [],
+        "steps": [
+          {
+            "keyword": "When",
+            "name": "I fill the all mandatory details",
+            "line": 51,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I should get the value  from extended class",
+            "line": 55,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "CustomerLogin",
+    "tags": [],
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "I should be Able to login on Page",
+        "line": 6,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@customer"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "I should be open the web Apllication",
+            "line": 7,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "When",
+            "name": "I am attempt to login",
+            "line": 8,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I should be see Customer dashboard",
+            "line": 9,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "ExcelFile",
+    "tags": [],
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Add two numbers",
+        "line": 6,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@DataSource:data.xlsx"
+          },
+          {
+            "name": "@DataSet:Sheet1"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "the first number is <num1>",
+            "line": 7,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "And",
+            "name": "the second number is <num2>",
+            "line": 8,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "When",
+            "name": "the two numbers are added",
+            "line": 9,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "the result should be <result>",
+            "line": 10,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "stepArgument",
+    "tags": [],
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "step argument to add five days in to the current date",
+        "line": 6,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "I have current date",
+            "line": 7,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "When",
+            "name": "I should see current date to next 5 date",
+            "line": 8,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "test must me pass",
+            "line": 9,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "UserLogin",
+    "tags": [],
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "I should be Able to login on user Page",
+        "line": 6,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "I should be open the web Apllication",
+            "line": 7,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "When",
+            "name": "I am attempt to login",
+            "line": 8,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I should be see user dashboard",
+            "line": 9,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

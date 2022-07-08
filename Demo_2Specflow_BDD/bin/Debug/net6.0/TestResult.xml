@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="11" result="Passed" total="11" passed="11" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.15.2.0" clr-version="4.0.30319.42000" start-time="2022-07-08 05:36:50Z" end-time="2022-07-08 05:36:51Z" duration="1.230350">
+  <command-line><![CDATA["C:\ProgramData\chocolatey\lib\nunit-console-runner\tools\nunit3-console.exe" C:\Users\HP\source\repos\Demo_2Specflow_BDD\Demo_2Specflow_BDD\bin\Debug\net6.0\Demo_2Specflow_BDD.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1019" name="Demo_2Specflow_BDD.dll" fullname="C:/Users/HP/source/repos/Demo_2Specflow_BDD/Demo_2Specflow_BDD/bin/Debug/net6.0/Demo_2Specflow_BDD.dll" runstate="Runnable" testcasecount="11" result="Passed" start-time="2022-07-08T05:36:50.9484590Z" end-time="2022-07-08T05:36:51.5509788Z" duration="0.602467" total="11" passed="11" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.13.3.0" clr-version="6.0.6" os-version="Microsoft Windows 10.0.19044" platform="Win32NT" cwd="C:\Users\HP\source\repos\Demo_2Specflow_BDD\Demo_2Specflow_BDD\bin\Debug\net6.0" machine-name="DESKTOP-62AVA1A" user="HP" user-domain="DESKTOP-62AVA1A" culture="en-IN" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\HP\source\repos\Demo_2Specflow_BDD\Demo_2Specflow_BDD\bin\Debug\net6.0" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETCoreApp,Version=v6.0" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="netcore-6.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="16676" />
+      <property name="_APPDOMAIN" value="nunit-agent" />
+    </properties>
+    <test-suite type="SetUpFixture" id="1-1000" name="[default namespace]" fullname="Demo_2Specflow_BDD_NUnitAssemblyHooks" classname="Demo_2Specflow_BDD_NUnitAssemblyHooks" runstate="Runnable" testcasecount="11" result="Passed" start-time="2022-07-08T05:36:50.9561999Z" end-time="2022-07-08T05:36:51.5509401Z" duration="0.594740" total="11" passed="11" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <output><![CDATA[-> Loading plugin C:\Users\HP\source\repos\Demo_2Specflow_BDD\Demo_2Specflow_BDD\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\HP\source\repos\Demo_2Specflow_BDD\Demo_2Specflow_BDD\bin\Debug\net6.0\Demo_2Specflow_BDD.dll
+-> Using default config
+]]></output>
+      <test-suite type="TestSuite" id="1-1020" name="Demo_2Specflow_BDD" fullname="Demo_2Specflow_BDD" runstate="Runnable" testcasecount="11" result="Passed" start-time="2022-07-08T05:36:51.2852614Z" end-time="2022-07-08T05:36:51.5478993Z" duration="0.262638" total="11" passed="11" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="1-1001" name="ExcelFileFeature" fullname="Demo_2Specflow_BDD.ExcelFileFeature" classname="Demo_2Specflow_BDD.ExcelFileFeature" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-07-08T05:36:51.2874149Z" end-time="2022-07-08T05:36:51.4547863Z" duration="0.167371" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="Description" value="ExcelFile" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="1-1004" name="AddTwoNumbers" fullname="Demo_2Specflow_BDD.ExcelFileFeature.AddTwoNumbers" classname="Demo_2Specflow_BDD.ExcelFileFeature" runstate="Runnable" testcasecount="2" result="Passed" start-time="2022-07-08T05:36:51.2914817Z" end-time="2022-07-08T05:36:51.4517817Z" duration="0.160300" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="Add two numbers" />
+              <property name="Category" value="DataSource:data.xlsx" />
+              <property name="Category" value="DataSet:Sheet1" />
+            </properties>
+            <test-case id="1-1002" name="AddTwoNumbers(&quot;20&quot;,&quot;30&quot;,&quot;50&quot;,null)" fullname="Demo_2Specflow_BDD.ExcelFileFeature.AddTwoNumbers(&quot;20&quot;,&quot;30&quot;,&quot;50&quot;,null)" methodname="AddTwoNumbers" classname="Demo_2Specflow_BDD.ExcelFileFeature" runstate="Runnable" seed="38112566" result="Passed" start-time="2022-07-08T05:36:51.2917663Z" end-time="2022-07-08T05:36:51.4464380Z" duration="0.154815" asserts="0">
+              <output><![CDATA[before scenarios
+Given the first number is 20
+20
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(20) (0.0s)
+And the second number is 30
+30
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(30) (0.0s)
+When the two numbers are added
+Add the Two Number
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be 50
+test case pass
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(50) (0.0s)
+after scenarios
+]]></output>
+            </test-case>
+            <test-case id="1-1003" name="AddTwoNumbers(&quot;50&quot;,&quot;40&quot;,&quot;90&quot;,null)" fullname="Demo_2Specflow_BDD.ExcelFileFeature.AddTwoNumbers(&quot;50&quot;,&quot;40&quot;,&quot;90&quot;,null)" methodname="AddTwoNumbers" classname="Demo_2Specflow_BDD.ExcelFileFeature" runstate="Runnable" seed="403467877" result="Passed" start-time="2022-07-08T05:36:51.4493418Z" end-time="2022-07-08T05:36:51.4501831Z" duration="0.000841" asserts="0">
+              <output><![CDATA[before scenarios
+Given the first number is 50
+50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+And the second number is 40
+40
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(40) (0.0s)
+When the two numbers are added
+Add the Two Number
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be 90
+test case pass
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(90) (0.0s)
+after scenarios
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1-1021" name="Features" fullname="Demo_2Specflow_BDD.Features" runstate="Runnable" testcasecount="9" result="Passed" start-time="2022-07-08T05:36:51.2857208Z" end-time="2022-07-08T05:36:51.5476657Z" duration="0.261945" total="9" passed="9" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="TestFixture" id="1-1005" name="CalculatorFeature" fullname="Demo_2Specflow_BDD.Features.CalculatorFeature" classname="Demo_2Specflow_BDD.Features.CalculatorFeature" runstate="Runnable" testcasecount="6" result="Passed" start-time="2022-07-08T05:36:51.4560546Z" end-time="2022-07-08T05:36:51.5059273Z" duration="0.049877" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="Calculator" />
+            </properties>
+            <test-case id="1-1006" name="AddTwoNumbers" fullname="Demo_2Specflow_BDD.Features.CalculatorFeature.AddTwoNumbers" methodname="AddTwoNumbers" classname="Demo_2Specflow_BDD.Features.CalculatorFeature" runstate="Runnable" seed="743477587" result="Passed" start-time="2022-07-08T05:36:51.4565747Z" end-time="2022-07-08T05:36:51.4584823Z" duration="0.001908" asserts="0">
+              <properties>
+                <property name="Description" value="Add two numbers" />
+                <property name="Category" value="mytag" />
+              </properties>
+              <output><![CDATA[before scenarios
+Given the first number is 50
+50
+-> done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
+And the second number is 70
+70
+-> done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)
+When the two numbers are added
+Add the Two Number
+-> done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)
+Then the result should be 120
+test case pass
+-> done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)
+after scenarios
+]]></output>
+            </test-case>
+            <test-case id="1-1007" name="CheckTheEmployeeDetail" fullname="Demo_2Specflow_BDD.Features.CalculatorFeature.CheckTheEmployeeDetail" methodname="CheckTheEmployeeDetail" classname="Demo_2Specflow_BDD.Features.CalculatorFeature" runstate="Runnable" seed="272010318" result="Passed" start-time="2022-07-08T05:36:51.4585056Z" end-time="2022-07-08T05:36:51.4686686Z" duration="0.010164" asserts="0">
+              <properties>
+                <property name="Description" value="Check The Employee Detail" />
+              </properties>
+              <output><![CDATA[before scenarios
+When I fill the all mandatory details
+  --- table step argument ---
+  | name   | age | mobile     | email           |
+  | akshay | 22  | 9876543210 | ap@testrig.com  |
+  | xyz    | 23  | 9874543210 | xyz@testrig.com |
+  | kp     | 21  | 974543210  | kp@testrig.com  |
+-> done: CalculatorStepDefinitions.WhenIFillTheAllMandatoryDetails(<table>) (0.0s)
+after scenarios
+]]></output>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1-1011" name="CheckTheEmployeeDetailInDifferntIteraction" fullname="Demo_2Specflow_BDD.Features.CalculatorFeature.CheckTheEmployeeDetailInDifferntIteraction" classname="Demo_2Specflow_BDD.Features.CalculatorFeature" runstate="Runnable" testcasecount="3" result="Passed" start-time="2022-07-08T05:36:51.4809670Z" end-time="2022-07-08T05:36:51.4980551Z" duration="0.017088" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="Description" value="Check The Employee Detail in differnt iteraction" />
+              </properties>
+              <test-case id="1-1008" name="CheckTheEmployeeDetailInDifferntIteraction(&quot;akshay&quot;,&quot;22&quot;,&quot;9876543210&quot;,&quot;ap@testrig.com&quot;,null)" fullname="Demo_2Specflow_BDD.Features.CalculatorFeature.CheckTheEmployeeDetailInDifferntIteraction(&quot;akshay&quot;,&quot;22&quot;,&quot;9876543210&quot;,&quot;ap@testrig.com&quot;,null)" methodname="CheckTheEmployeeDetailInDifferntIteraction" classname="Demo_2Specflow_BDD.Features.CalculatorFeature" runstate="Runnable" seed="1284793701" result="Passed" start-time="2022-07-08T05:36:51.4827844Z" end-time="2022-07-08T05:36:51.4929878Z" duration="0.010202" asserts="0">
+                <output><![CDATA[before scenarios
+When I fill the all mandatory details akshay , 22 ,9876543210 and ap@testrig.com
+akshay 
+22
+9876543210
+ap@testrig.com
+employee test run sucefully
+akshay
+23
+1234567890
+aj
+32
+1234567890
+-> done: CalculatorStepDefinitions.WhenIFillTheAllMandatoryDetailsAkshayAndApTestrig_Com("akshay ", 22, 9876543210, "ap@testrig.com") (0.0s)
+after scenarios
+]]></output>
+              </test-case>
+              <test-case id="1-1009" name="CheckTheEmployeeDetailInDifferntIteraction(&quot;xyz&quot;,&quot;23&quot;,&quot;9874543210&quot;,&quot;xyz@testrig.com&quot;,null)" fullname="Demo_2Specflow_BDD.Features.CalculatorFeature.CheckTheEmployeeDetailInDifferntIteraction(&quot;xyz&quot;,&quot;23&quot;,&quot;9874543210&quot;,&quot;xyz@testrig.com&quot;,null)" methodname="CheckTheEmployeeDetailInDifferntIteraction" classname="Demo_2Specflow_BDD.Features.CalculatorFeature" runstate="Runnable" seed="558782869" result="Passed" start-time="2022-07-08T05:36:51.4950346Z" end-time="2022-07-08T05:36:51.4956162Z" duration="0.000581" asserts="0">
+                <output><![CDATA[before scenarios
+When I fill the all mandatory details xyz , 23 ,9874543210 and xyz@testrig.com
+xyz 
+23
+9874543210
+xyz@testrig.com
+employee test run sucefully
+akshay
+23
+1234567890
+aj
+32
+1234567890
+-> done: CalculatorStepDefinitions.WhenIFillTheAllMandatoryDetailsAkshayAndApTestrig_Com("xyz ", 23, 9874543210, "xyz@testrig.com") (0.0s)
+after scenarios
+]]></output>
+              </test-case>
+              <test-case id="1-1010" name="CheckTheEmployeeDetailInDifferntIteraction(&quot;kp&quot;,&quot;21&quot;,&quot;974543210&quot;,&quot;kp@testrig.com&quot;,null)" fullname="Demo_2Specflow_BDD.Features.CalculatorFeature.CheckTheEmployeeDetailInDifferntIteraction(&quot;kp&quot;,&quot;21&quot;,&quot;974543210&quot;,&quot;kp@testrig.com&quot;,null)" methodname="CheckTheEmployeeDetailInDifferntIteraction" classname="Demo_2Specflow_BDD.Features.CalculatorFeature" runstate="Runnable" seed="370924685" result="Passed" start-time="2022-07-08T05:36:51.4961428Z" end-time="2022-07-08T05:36:51.4966259Z" duration="0.000483" asserts="0">
+                <output><![CDATA[before scenarios
+When I fill the all mandatory details kp , 21 ,974543210 and kp@testrig.com
+kp 
+21
+974543210
+kp@testrig.com
+employee test run sucefully
+akshay
+23
+1234567890
+aj
+32
+1234567890
+-> done: CalculatorStepDefinitions.WhenIFillTheAllMandatoryDetailsAkshayAndApTestrig_Com("kp ", 21, 974543210, "kp@testrig.com") (0.0s)
+after scenarios
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-case id="1-1012" name="ContextInjectctionCalculaterClassToInjectionemployeedefinaction" fullname="Demo_2Specflow_BDD.Features.CalculatorFeature.ContextInjectctionCalculaterClassToInjectionemployeedefinaction" methodname="ContextInjectctionCalculaterClassToInjectionemployeedefinaction" classname="Demo_2Specflow_BDD.Features.CalculatorFeature" runstate="Runnable" seed="1723245530" result="Passed" start-time="2022-07-08T05:36:51.4987178Z" end-time="2022-07-08T05:36:51.5017689Z" duration="0.003051" asserts="0">
+              <properties>
+                <property name="Description" value="context Injectction calculater class to injectionemployeedefinaction" />
+              </properties>
+              <output><![CDATA[before scenarios
+When I fill the all mandatory details
+  --- table step argument ---
+  | name   | age | mobile     | email          |
+  | akshay | 22  | 9876543210 | ap@testrig.com |
+-> done: CalculatorStepDefinitions.WhenIFillTheAllMandatoryDetails(<table>) (0.0s)
+Then I should get the value  from extended class
+
+0
+
+0
+-> done: InjectionDefination.ThenIShouldGetTheValueFromExtendedClass() (0.0s)
+after scenarios
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1013" name="CustomerLoginFeature" fullname="Demo_2Specflow_BDD.Features.CustomerLoginFeature" classname="Demo_2Specflow_BDD.Features.CustomerLoginFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-07-08T05:36:51.5082890Z" end-time="2022-07-08T05:36:51.5263642Z" duration="0.018075" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="CustomerLogin" />
+            </properties>
+            <test-case id="1-1014" name="IShouldBeAbleToLoginOnPage" fullname="Demo_2Specflow_BDD.Features.CustomerLoginFeature.IShouldBeAbleToLoginOnPage" methodname="IShouldBeAbleToLoginOnPage" classname="Demo_2Specflow_BDD.Features.CustomerLoginFeature" runstate="Runnable" seed="43359650" result="Passed" start-time="2022-07-08T05:36:51.5128232Z" end-time="2022-07-08T05:36:51.5208218Z" duration="0.007998" asserts="0">
+              <properties>
+                <property name="Description" value="I should be Able to login on Page" />
+                <property name="Category" value="customer" />
+              </properties>
+              <output><![CDATA[before scenarios
+Given I should be open the web Apllication
+hit the page
+-> done: LoginStepDefinitions.GivenIShouldBeOpenTheWebApllication() (0.0s)
+When I am attempt to login
+Login attemeting  cutomer page
+-> done: LoginStepDefinitions.WhenIAmAttemptToLogin() (0.0s)
+Then I should be see Customer dashboard
+Login succefully to  customer page
+-> done: LoginStepDefinitions.ThenIShouldBeSeeCustomerDashboard() (0.0s)
+after scenarios
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1015" name="StepArgumentFeature" fullname="Demo_2Specflow_BDD.Features.StepArgumentFeature" classname="Demo_2Specflow_BDD.Features.StepArgumentFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-07-08T05:36:51.5267766Z" end-time="2022-07-08T05:36:51.5421865Z" duration="0.015410" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="stepArgument" />
+            </properties>
+            <test-case id="1-1016" name="StepArgumentToAddFiveDaysInToTheCurrentDate" fullname="Demo_2Specflow_BDD.Features.StepArgumentFeature.StepArgumentToAddFiveDaysInToTheCurrentDate" methodname="StepArgumentToAddFiveDaysInToTheCurrentDate" classname="Demo_2Specflow_BDD.Features.StepArgumentFeature" runstate="Runnable" seed="1569861798" result="Passed" start-time="2022-07-08T05:36:51.5278826Z" end-time="2022-07-08T05:36:51.5419243Z" duration="0.014041" asserts="0">
+              <properties>
+                <property name="Description" value="step argument to add five days in to the current date" />
+                <property name="Category" value="tag1" />
+              </properties>
+              <output><![CDATA[before scenarios
+Given I have current date
+1
+-> done: StepArgumentStepDefinitions.GivenIHaveCurrentDate() (0.0s)
+When I should see current date to next 5 date
+7/13/2022 12:00:00 AM
+-> done: StepArgumentStepDefinitions.WhenIShouldSeeCurrentDateToNextDate(5) (0.0s)
+Then test must me pass
+2
+-> done: StepArgumentStepDefinitions.ThenTestMustMePass() (0.0s)
+after scenarios
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1017" name="UserLoginFeature" fullname="Demo_2Specflow_BDD.Features.UserLoginFeature" classname="Demo_2Specflow_BDD.Features.UserLoginFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-07-08T05:36:51.5422893Z" end-time="2022-07-08T05:36:51.5474059Z" duration="0.005117" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="UserLogin" />
+            </properties>
+            <test-case id="1-1018" name="IShouldBeAbleToLoginOnUserPage" fullname="Demo_2Specflow_BDD.Features.UserLoginFeature.IShouldBeAbleToLoginOnUserPage" methodname="IShouldBeAbleToLoginOnUserPage" classname="Demo_2Specflow_BDD.Features.UserLoginFeature" runstate="Runnable" seed="1777047914" result="Passed" start-time="2022-07-08T05:36:51.5430510Z" end-time="2022-07-08T05:36:51.5469876Z" duration="0.003937" asserts="0">
+              <properties>
+                <property name="Description" value="I should be Able to login on user Page" />
+                <property name="Category" value="user" />
+              </properties>
+              <output><![CDATA[before scenarios
+Given I should be open the web Apllication
+hit the page
+-> done: LoginStepDefinitions.GivenIShouldBeOpenTheWebApllication() (0.0s)
+When I am attempt to login
+Login attempting in user page
+-> done: UserLoginStepDefinitions.WhenIAmAttemptToLogin() (0.0s)
+Then I should be see user dashboard
+Login succefully to  user page
+-> done: LoginStepDefinitions.ThenIShouldBeSeeUserDashboard() (0.0s)
+after scenarios
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
